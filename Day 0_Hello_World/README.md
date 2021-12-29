@@ -21,7 +21,7 @@ You've got this!</p>
 <p>Welcome to 30 Days of Code!</p>
 <h3>Sample Output</h3>
 
-<p>Hello, World.</br>
+<p>Hello, World.<br>
 Welcome to 30 Days of Code!</p>
 <h3>Explanation</h3>
 
