@@ -1,5 +1,5 @@
 ### Objective
-<p>Today, we're discussing data types. Check out the Tutorial tab for learning materials and an instructional video!</p>
+<p>Today, we're discussing data types. Check out the <a href="https://www.hackerrank.com/challenges/30-data-types/tutorial">Tutorial</a> tab for learning materials and an instructional video!</p>
 
 <h3>Task</h3>
 <p>Complete the code in the editor below. The variables i,d , and s are already declared and initialized for you. You must:</p>
