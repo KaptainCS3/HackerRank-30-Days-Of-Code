@@ -12,9 +12,7 @@ int main() {
     // Declare second integer, double, and String variables.
     int x = 2; double y = 2.0; char str[] = "is the best place to learn and practice coding!";
     // Read and save an integer, double, and String to your variables.
-    scanf("%d", &x);
-    scanf("%lf", &y);
-    scanf("%[^\n]s", s);
+    scanf("%d %lf %s", &x, &y, s);
     // Print the sum of both integer variables on a new line.
     printf("%d\n", i + x);
     // Print the sum of the double variables on a new line.
@@ -23,3 +21,4 @@ int main() {
     // The 's' variable above should be printed first.
     printf("%s%s", s, str);
     return 0;
+}
