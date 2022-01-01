@@ -1,10 +1,10 @@
 ### Objective
-In this challenge, you will work with arithmetic operators. Check out the Tutorial tab for learning materials and an instructional video.
+<p>In this challenge, you will work with arithmetic operators. Check out the Tutorial tab for learning materials and an instructional video.</p>
 
-Task
+<h3>Task</h3>
 Given the meal price (base cost of a meal), tip percent (the percentage of the meal price being added as tip), and tax percent (the percentage of the meal price being added as tax) for a meal, find and print the meal's total cost. Round the result to the nearest integer.
 
-Example
+<h3>Example</h3>
 
 
 
@@ -22,20 +22,24 @@ Returns The function returns nothing. Print the calculated value, rounded to the
 
 Note: Be sure to use precise values for your calculations, or you may end up with an incorrectly rounded result.
 
-Input Format
+<h3>Input Format</h3>
 
 There are  lines of numeric input:
 The first line has a double,  (the cost of the meal before tax and tip).
 The second line has an integer,  (the percentage of  being added as tip).
 The third line has an integer,  (the percentage of  being added as tax).
 
-Sample Input
+<h3>Sample Input</h3>
 
-12.00
-20
+<p>
+12.00<br>
+20<br>
 8
-Sample Output
+</p>
 
+<h3>Sample Output</h3>
+
+<p>
 15
 Explanation
 
