@@ -38,8 +38,8 @@ int main()
 
     int tax_percent = parse_int(ltrim(rtrim(readline())));
     tip = (meal_cost/100) * tip_percent;
+    tax = (meal_cost/100) * tax_percent;
     total_cost = meal_cost + tip + tax; 
-
     solve(meal_cost, tip_percent, tax_percent);
 
     return 0;
