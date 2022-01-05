@@ -30,12 +30,15 @@ void solve(double meal_cost, int tip_percent, int tax_percent) {
 }
 
 int main()
-{
+{ 
+    int total_cost, tax, tip;
     double meal_cost = parse_double(ltrim(rtrim(readline())));
 
     int tip_percent = parse_int(ltrim(rtrim(readline())));
 
     int tax_percent = parse_int(ltrim(rtrim(readline())));
+    tip = (meal_cost/100) * tip_percent;
+    total_cost = meal_cost + tip + tax; 
 
     solve(meal_cost, tip_percent, tax_percent);
 
