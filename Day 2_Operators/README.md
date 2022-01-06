@@ -57,5 +57,5 @@ Calculations:
 <p><b>
 tip = 12 and <sup>12</sup>/<sub>100</sub></b>X<b>20 = 2.4</b><br>
 <b>tax = 8 and <sup>8</sup>/<sub>100</sub></b>X<b>20 = 0.96</b><br>
-<b>total_cost = meal_cost + tip + tax = 12 + 2.4 = round(total_cost) = 15</b><br>
+<b>total_cost = meal_cost + tip + tax = 12 + 2.4 = round(total_cost) = 15.36</b><br>
 We round  to the nearest integer and print the result, <b>15.</b>
