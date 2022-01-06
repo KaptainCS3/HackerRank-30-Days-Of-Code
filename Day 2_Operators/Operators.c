@@ -43,7 +43,7 @@ int main()
     tip = (meal_cost/100) * tip_percent;
     tax = (meal_cost/100) * tax_percent;
     total_cost = (meal_cost + tip + tax); 
-    printf("%lf", total_cost);
+    printf("%.0lf", total_cost);
     solve(meal_cost, tip_percent, tax_percent);
 
     return 0;
